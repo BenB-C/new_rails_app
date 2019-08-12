@@ -27,5 +27,8 @@ Things you may want to cover:
 ```
 gem install rails
 rails new app_name -d postgresql -T
-
+```
+## Setting Up Rspec
+```
+bundle exec rails generate rspec:install
 ```
