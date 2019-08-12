@@ -32,3 +32,19 @@ rails new app_name -d postgresql -T
 ```
 bundle exec rails generate rspec:install
 ```
+## Database initialization
+```
+rake db:create
+rails generate migration create_albums
+rake db:migrate
+rake db:test:prepare
+```
+https://guides.rubyonrails.org/v3.2/migrations.html
+https://guides.rubyonrails.org/command_line.html#rails-generate
+
+## Running the rails server
+```
+rails server
+rails s
+open http://localhost:3000
+```
